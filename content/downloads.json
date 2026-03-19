@@ -1,0 +1,27 @@
+[
+  {
+    "title": "Acoustic Warm-up Playbook",
+    "type": "ebook",
+    "description": "A 40-minute daily warm-up protocol with fretboard visuals and backing loops.",
+    "isFree": true,
+    "price": "0",
+    "url": "content/downloads/acoustic-warmup-playbook.pdf"
+  },
+  {
+    "title": "Hybrid Picking Masterclass",
+    "type": "course",
+    "description": "Eight-week hybrid picking course with video lessons, worksheets, and backing tracks.",
+    "isFree": false,
+    "price": "39.00",
+    "currency": "USD",
+    "url": "https://buy.stripe.com/example-course"
+  },
+  {
+    "title": "Practice Loop Starter Pack",
+    "type": "tracks",
+    "description": "Four downloadable loops and a worksheet to build timed, phrase-based practice habits.",
+    "isFree": true,
+    "price": "0",
+    "url": "content/downloads/practice-loop-starter-pack.zip"
+  }
+]

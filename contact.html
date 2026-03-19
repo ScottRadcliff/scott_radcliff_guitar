@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <meta
+      name="description"
+      content="Contact form for guitar coaching, collabs, lessons, and media requests."
+    />
+    <title>Contact | Scott Radcliff Guitar</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="alternate" type="application/rss+xml" title="Scott Radcliff Guitar RSS" href="rss.xml" />
+  </head>
+  <body class="page">
+    <header class="site-header">
+      <p class="brand">SCOTT RADCLIFF GUITAR</p>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="articles.html">Articles</a>
+        <a href="downloads.html">Downloads</a>
+        <a href="contact.html" class="active">Contact</a>
+        <a href="bio.html">Bio</a>
+      </nav>
+    </header>
+
+    <main class="wrap">
+      <section class="section-head">
+        <p class="kicker">Contact</p>
+        <h1>Let’s make music happen</h1>
+        <p>Send a message directly and I will reply within one business week.</p>
+      </section>
+
+      <form
+        class="contact-form"
+        name="contact"
+        method="POST"
+        data-netlify="true"
+        data-netlify-honeypot="bot-field"
+      >
+        <input type="hidden" name="form-name" value="contact" />
+        <div style="position:absolute;left:-10000px;top:auto;width:1px;height:1px;overflow:hidden;">
+          <label>
+            Leave this field blank
+            <input name="bot-field" type="text" tabindex="-1" autocomplete="off" />
+          </label>
+        </div>
+        <label>
+          Name
+          <input type="text" name="name" autocomplete="name" required />
+        </label>
+        <label>
+          Email
+          <input type="email" name="email" autocomplete="email" required />
+        </label>
+        <label>
+          Subject
+          <input type="text" name="subject" />
+        </label>
+        <label>
+          Message
+          <textarea name="message" rows="6" required></textarea>
+        </label>
+
+        <button class="btn btn--primary" type="submit">Send Message</button>
+      </form>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span id="year"></span> Scott Radcliff Guitar</p>
+      <a href="contact.html">Contact Form</a>
+    </footer>
+
+    <script src="js/site.js" defer></script>
+  </body>
+</html>
