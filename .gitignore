@@ -1,0 +1,21 @@
+# General operating-system noise
+.DS_Store
+Thumbs.db
+
+# Editors and tools
+.vscode/
+.idea/
+*.swp
+
+# Node / package tooling
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Netlify local state
+.netlify/
+
+# Optional build-generated content (kept in source now, but safe to ignore if generated during CI)
+content/articles/index.json
+rss.xml
